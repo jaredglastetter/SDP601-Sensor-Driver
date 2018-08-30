@@ -3,8 +3,6 @@
 #include <iostream>
 #include <time.h>
 
-//using namespace std;
-
 #define SDP601_ADDR 0x41
 
 
@@ -35,9 +33,6 @@ int main()
 
 		std::cout << result / 60.0 << std::endl;
 		
-
-		//pressureSensor.CheckCRC();
-
 		usleep(5000);
 		
 	}
