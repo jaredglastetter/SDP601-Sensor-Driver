@@ -1,0 +1,1 @@
+	g++ SDP601.cpp measure.cpp -o measure 
